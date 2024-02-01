@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+  <style>
+    /* Your CSS code here */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.left img {
+  height: 40px;
+}
+
+.right select {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+.right button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+}
+
+.title {
+  background-image: url(./items/backgroundImg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.email button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="left">
+        <img src="images/netflix-logo.png" alt="">
+      </div>
+      <div class="right">
+        <select name="language" class="language">
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+        <button><a href="#">Sign In</a></button>
+      </div>
+    </nav>
+    <div class="title">
+      <div class="content">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <form action="#">
+          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+          <div class="email">
+            <input type="email" name="email" placeholder="Email address">
+            <button>Get Started</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

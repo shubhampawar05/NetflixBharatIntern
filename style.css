@@ -61,3 +61,59 @@ header{
     color: white;
     border-radius: 0.2rem;
 }
+/* main heading section */
+
+
+.mainheading{
+    width: 100%;
+    /* height: 100%; */
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.heading h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1.5rem;
+}
+.heading h3{
+    font-size: 25px;
+    font-weight: 400;
+    /* padding: 1.5rem; */
+}
+.emailandbtn{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.emailandbtn div input{
+    width: 360px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.632);
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.startbtn  {
+    width: 210px;
+    height: 55px;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;   
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    text-align: center;
+}
