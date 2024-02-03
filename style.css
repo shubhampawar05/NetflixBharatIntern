@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  sans-serif;
 
 }
 .firstPage{
@@ -17,19 +18,14 @@
     background-color: rgb(0, 0, 0,0.5);
     z-index: -1;
 }
-header{
-    max-width: 1170px;
-    margin : 0rem auto;
-    /* height: 10vh; */
-    /* background-color: aquamarine; */
-}
+
 .navitems{
-    width: 1170px;
-    /* height: 70px; */
+    width: 100vw;
+    padding: 1.2rem 10.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+   
 }
 .navimg img{
     width: 9.7rem;
@@ -37,37 +33,51 @@ header{
 .navbtns{
     display: flex;
     color: white;
-    gap: 1rem;
+    gap: 1.3rem;
+    /* border: 1px solid yellow; */
+    margin-right: 1.5rem;
+
 }
 #language{
+    position: relative;
     border: 1px solid rgb(141, 140, 140);
-    padding: 0.3rem 0.7rem;
     background-color: rgba(0, 0, 0, 0.662);
     border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+#language i {
+    position: absolute;
+    font-size: 18px;
+    top: 17%;
+    left: 7%;
 }
 .color{
     color: white;
 }
-#language select{
+select{
+    width: 120px;
+    text-align: center;
+    padding: 0.3rem 0.7rem;
     background-color: rgba(0, 0, 0, 0.662);
+    color: white;
     border: none;
     outline: none;
-    color: white;
-    padding-top: 0.2rem;
+    font-weight: 600;
+}
+option {
+  font-weight: 600;
 }
 .signin{
-    padding: 0.3rem 0.7rem;
+    padding: 0.4rem 0.9rem;
     background-color: red;
     color: white;
     border-radius: 0.2rem;
+    font-weight: 600;
+    text-align: center;
 }
-/* main heading section */
-
-
 .mainheading{
     width: 100%;
-    /* height: 100%; */
-    height: 70vh;
+    height: 85%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -77,16 +87,18 @@ header{
 }
 
 .heading h1{
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -2px;
 }
 .heading h2{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     padding: 1.5rem;
+    color: rgb(255, 255, 255 );
 }
 .heading h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     /* padding: 1.5rem; */
 }
@@ -105,6 +117,8 @@ header{
     border-radius: 0.2rem;
     padding: 0.5rem;
     font-weight: 500;
+    color: white;
+    font-size: 20px;
 }
 .startbtn  {
     width: 210px;
@@ -116,4 +130,69 @@ header{
     font-weight: 600;
     border-radius: 0.2rem;
     text-align: center;
+}
+
+/* second page */
+.secondPage{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    border-top: 8px solid #232323;
+    color: white;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 5rem 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.leftpart{
+    width: 50%;
+    height: fit-content;
+}
+.leftpart h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.leftpart h3{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.rightpart{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.rightpart img{
+    width: 100%;
+    height: 100%;
+  
+}
+.videos{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    left: 6%;
+}
+video{
+    height: 80%;
+    width: 80%;
+}
+
+
+/* -------third page----- */
+.thirdPage{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    border-top: 8px solid #232323;
+    color: white;
 }
