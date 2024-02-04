@@ -135,7 +135,7 @@ option {
 /* second page */
 .secondPage{
     width: 100%;
-    height: 85vh;
+    min-height: auto;
     background-color: black;
     border-top: 8px solid #232323;
     color: white;
@@ -143,7 +143,7 @@ option {
 .container{
     width: 1170px;
     margin: 0 auto;
-    height: 100%;
+    /* height: 85vh; */
     padding: 5rem 0;
     background-color: transparent;
     display: flex;
@@ -191,8 +191,173 @@ video{
 /* -------third page----- */
 .thirdPage{
     width: 100%;
-    height: 90vh;
+    min-height: auto;
     background-color: black;
     border-top: 8px solid #232323;
     color: white;
 }
+.mobile{
+    width: 50%;
+    position: relative;
+    object-fit: contain;
+
+}
+.mobile img{
+    width: 100%;
+    height: 100%;
+}
+
+.upperdiv{
+    position: absolute;
+    top: 69%;
+    left: 23%;
+    border: 2px solid rgb(97, 96, 96);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    background-color: black;
+}
+.upperdiv img{
+    height: 80px;
+    width: 60px;
+    object-fit: contain;
+}
+.imgdiv-2{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 170px;
+}
+.text p{
+    font-weight: 600;
+}
+.text span{
+    color: #0071eb;
+}
+.downloadLogo i{
+    font-size: 24px;
+}
+
+.mobileText{
+    width: 50%;
+}
+.mobileText h1 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+.mobileText h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+
+/* -------fourth page----- */
+.fourthPage{
+    width: 100%;
+    min-height: auto;
+    background-color: black;
+    border-top: 8px solid #232323;
+    color: white;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* height: 85vh; */
+    padding: 5rem 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.movietext{
+    width: 50%;
+    height: fit-content;
+}
+.movietext h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.movietext h3{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.movieDiv{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.movieDiv img{
+    width: 100%;
+    height: 100%;
+  
+}
+.movieVideo{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: -10%;
+    left: 20%;
+}
+.movieVideo video{
+    height: 90%;
+    width: 60%;
+}
+
+
+/* fifth page  */
+
+
+
+.fifthPage{
+    width: 100%;
+    min-height: auto;
+    background-color: black;
+    border-top: 8px solid #232323;
+    color: white;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* height: 85vh; */
+    padding: 5rem 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.childernImg{
+    width: 50%;
+    height: fit-content;
+}
+.childernImg img{
+    width: 100%;
+    height: 100%;
+}
+.childernText{
+    width: 50%;
+    /* padding-right: 1rem; */
+    position: relative;
+    z-index: 1;
+}
+.childernText h1 {
+    font-size: 46px;
+    font-weight: 800;
+}
+.childernText h3{
+    margin-top: 1rem;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 500;
+    
+}
+
+
