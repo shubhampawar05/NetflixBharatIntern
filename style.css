@@ -123,13 +123,17 @@ option {
 .startbtn  {
     width: 210px;
     height: 55px;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     background-color: red;
     color: white;   
     font-size: 26px;
     font-weight: 600;
     border-radius: 0.2rem;
     text-align: center;
+}
+.startbtn:hover{
+    background-color: rgba(226, 8, 8, 0.921);
+    transition: all 0.3s;
 }
 
 /* second page */
@@ -399,4 +403,62 @@ video{
     text-align: center;
     margin: 3rem 0 0.5rem 0;
     font-size:22px ;
+}
+
+/* ==============footer section======== */
+
+
+footer{
+    width: 100%;
+    min-height: auto;
+    background-color: black;
+    border-top: 8px solid #232323;
+    color: white;
+
+
+}
+.outerdiv{
+    width: 1170px;
+    margin: 0 auto;
+    /* height: 85vh; */
+    padding: 5rem 0;
+    background-color: transparent;
+   
+}
+
+.footerDiv{
+    margin-top: 1rem;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    text-align: left;
+    list-style: 1.5;
+    color: #B3B3B3;
+}
+ul{
+    list-style: none;
+}
+li{
+    line-height: 2;
+}
+a{
+    color: #B3B3B3;
+}
+.lang{
+    
+    border: 1px solid red;
+    width: 125px;
+    position: relative;
+    margin: 1.5rem 0;
+    border: 1px solid rgb(141, 140, 140);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+.lang > i {
+    position: absolute;
+    top: 16%;
+    left: 5%;
+}
+.outerdiv>span{
+    color: #B3B3B3;
 }
